@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c50600d403.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <header>
+        <h2><a href="#" class="logo"> ai<span>meow.</span></a></h2>
+                <ul>
+                    <li><a href = "#header" class="active"> Home </a></li>
+                    <li><a href = "#about"> About Me </a></li>
+                    <li><a href = "#activities"> Activities </a></li>
+                    <li><a href = "#featured"> Blog </a></li>
+                    <li><a href = "#footer"> Help </a></li>
+                </ul>
+    </header>
+    <section class="main">
+        <img src="images/stars1.png" id="stars">
+            <h2 class="name">Aimi's Portfolio</h2>
+        <img src="images/moon2.png" id="moon">
+        <img src="images/mountains3.png" id="mountains3">
+        <img src="images/mountains4.png" id="mountains4">
+        <img src="images/river5.png" id="river">
+        <img src="images/boat6.png" id="boat6">
+        <img src="images/mountains7.png" id="mountains7"> 
+    </section>
+</div> 
+
+<!------About me------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="column1">
+                <image src = "images/myself2.jpg" ></image>
+            </div>
+            <div class="column2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi! My name is Nurul Aimi Binti Johan and I am a second year student in UniSZA, 
+                    currently studying <br>for Bachelor in Information Technology(Informatics Media). 
+                    The purpose of this portfolio is to provide<br>the readers an insight into my personality, 
+                    work ethics and a compilation of materials that exemplifies <br>my life, skills, qualifications, education, activity and experiences.</p>
+
+                <div class="tab-bar">
+                    <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                    <p class="tab-links" onclick="opentab('education')"> Academic Achievement</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Basketball</span><br>As Captain, Position Small Forward</li>
+                        <li><span>Playing Games</span><br>Joining eSport Tournament</li>
+                        <li><span>AR design</span><br>Designing AR project using Unity</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2015-2019</span><br>Focusing on Basketball tournament</li>
+                        <li><span>2020-2021</span><br>Testing AR with Vuforia in Unity</li>
+                        <li><span>2022</span><br>Design and implement AR Technology in innovation competitions</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>SPM</span><br>2A+ 5A 1A- 1B+</li>
+                        <li><span>Pre-University</span><br>PNGK 3.78</li>
+                        <li><span>Bachelor</span><br>PNGK 3.79</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------Activities------>
+
+<div id="activities">
+<div class="container">
+    <h1 class="sub-title">My Activities</h1>
+    <div class="activity-list">
+        <div class="activity">
+            <img src="images/basket.jpg"></image>
+            <div class="layer">
+                <h3>Basketball</h3>
+                <p>Basketball isn't just a SPORT. It is an ART, one that must be mastered to succeed.</p>
+                <a href="https://en.wikipedia.org/wiki/Basketball"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="activity">
+            <img src="images/code1.png"></image>
+            <div class="layer">
+                <h3>Coding</h3>
+                <p>Learn and apply coding in every system we build like C, Java, JavaScript and HTML.</p>
+                <a href="https://emeritus.org/blog/coding-career-coding-languages-list-for-2022/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="activity">
+            <img src="images/ARact1.png"></image>
+            <div class="layer">
+                <h3>AR Designing</h3>
+                <p>Create awesome AR applications using Vuforia. Learned a lot terms like Image Target, Instant Tracking and Recognition.</p>
+                <a href="https://blog.logrocket.com/create-ar-experience-unity-vuforia/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href = "https://fik.unisza.edu.my/index.php?option=com_sppagebuilder&view=page&id=28&Itemid=637&lang=en" ><i class="btn">See more</i></a>
+</div>
+</div>
+
+<!------Featured------>
+
+<div id="featured">
+    <div class="container">
+        <h1 class="sub-title">My Blog</h1>
+    <div class="featured_container">
+        <div class="post_thumbnail">
+            <img src = "images/kwn1.jpg">
+        </div>
+        <div class="post_info">
+            <a href="" class = "category_button">My Diary</a>
+            <h2 class = "post_title"><a href = "post.html">“Many people will walk in and out of your life, but only true friends leave footprints in your heart. The friend who knows all about you and still loves you.”</a></h2>
+            <p class = "post_body">
+                These are my close friends. Were 7 in total of course haha..We always support each other during ups and downs especially if one of us have problems. This is what I called true friendship as a true friend will never live their friends behind.
+
+            </p>
+            <div class="post_author">
+                <div class="post_author-avatar">
+                    <img src = "images/authorr1.jpg">
+                </div>
+                <div class="post_author-info">
+                    <h5>By: Aimi Meow</h5>
+                    <small>December 9 , 2022 - 07:23</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ----search bar----- -->
+
+<section class = "search_bar">
+    <form class = "search_bar-container" action="">
+        <div>
+            <i class = "fa-solid fa-magnifying-glass"></i>
+            <input type = "search" name = "" placeholder = "Search">
+        </div>
+        <button type = "submit" class = "btn1"> Go </button>
+    </form>
+</section>
+
+<!-- -----post----- -->
+
+<section class = "post">
+    <div class="post_container">
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src="images/blog11.jpg">
+            </div> 
+            <div class = "post_info">
+                <a href="" class = "category_button">News</a>
+                <h3 class = "post_title">
+                    <a href = "post.html">“Prihatin! Bersih! Stabil!”</a>
+                </h3>
+                <p class = "post_body">
+                Well today is voting day, and I don't know which party to vote. But I think I've already decide to vote for Perikatan Nasional as I just want Muhyiddin Yassin to lead as PM haha..
+    
+                </p>
+                <div class="post_author">
+                    <div class="post_author-avatar">
+                        <img src = "images/author2.jpg">
+                    </div>
+                    <div class="post_author-info">
+                        <h5>By: Pesya Comey</h5>
+                        <small>November 19, 2022 - 13:50</small>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src="images/blog2.jpg">
+            </div> 
+            <div class = "post_info">
+                <a href="" class = "category_button">Food</a>
+                <h3 class = "post_title">
+                    <a href = "post.html">“When faced with something I fear, I tend to eat spaghetti.”</a>
+                </h3>
+                <p class = "post_body">
+                It looks like I'm craving spaghetti today. I decided to make spaghetti carbonara because I really miss my mom's cook huhu. She always cook this for us in the weekend sooo I LOVE YOU MOM!
+    
+                </p>
+                <div class="post_author">
+                    <div class="post_author-avatar">
+                        <img src = "images/author3.jpg">
+                    </div>
+                    <div class="post_author-info">
+                        <h5>By: Faryy BTS</h5>
+                        <small>Oktober 12, 2022 - 16:10</small>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src="images/blog3.jpg">
+            </div> 
+            <div class = "post_info">
+                <a href="" class = "category_button">Sports</a>
+                <h3 class = "post_title">
+                    <a href = "post.html">“Racket, Check!”</a>
+                </h3>
+                <p class = "post_body">
+                Yeayy today I,m really excited to try out my new racket Yonex Duora 10. I bought this racket with my own money and I hope it will last forever :D.
+    
+                </p>
+                <div class="post_author">
+                    <div class="post_author-avatar">
+                        <img src = "images/author4.jpg">
+                    </div>
+                    <div class="post_author-info">
+                        <h5>By: Clever_Mok</h5>
+                        <small>Oktober 1, 2022 - 09:30</small>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src="images/blog44.jpg">
+            </div> 
+            <div class = "post_info">
+                <a href="" class = "category_button">Entertainments</a>
+                <h3 class = "post_title">
+                    <a href = "post.html">“What's your favorite scary movie?”</a>
+                </h3>
+                <p class = "post_body">
+                Tonight I watch creepy pasta guys. The best of the best creepy pasta on my list is The Slenderman. I live how he doesn't have a face and he has his own creepy history. You guys should see this.
+    
+                </p>
+                <div class="post_author">
+                    <div class="post_author-avatar">
+                        <img src = "images/author5.jpg">
+                    </div>
+                    <div class="post_author-info">
+                        <h5>By: NazaQil B238</h5>
+                        <small>September 28, 2022 - 05:45</small>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src="images/blog66.jpg">
+            </div> 
+            <div class = "post_info">
+                <a href="" class = "category_button">Nature</a>
+                <h3 class = "post_title">
+                    <a href = "post.html">“You said I was the most exotic flower ~”</a>
+                </h3>
+                <p class = "post_body">
+                    The corpse flower, also known as the giant padma or Rafflesia arnoldii, is a species of flowering plant belonging to the parasitic genus Rafflesia. It smells strongly and offensively like decomposing flesh. Borneo and Sumatra's rainforests are home to it.
+    
+                </p>
+                <div class="post_author">
+                    <div class="post_author-avatar">
+                        <img src = "images/author7.jpg">
+                    </div>
+                    <div class="post_author-info">
+                        <h5>By: Yek Brazil</h5>
+                        <small>September 21, 2022 - 06:40</small>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src="images/blog6.jpg">
+            </div> 
+            <div class = "post_info">
+                <a href="" class = "category_button">Animals</a>
+                <h3 class = "post_title">
+                    <a href = "post.html">“Cats rule the world.”</a>
+                </h3>
+                <p class = "post_body">
+                    The Selkirk Rex is well-known for having thick, curly hair, which has given her the nickname "the cat in sheep's clothes." At birth, she had loose, flowing locks and curling whiskers. Despite the dominance of the curly hair gene, not all Selkirks are born with these ringlets. Hair that is straight is common.
+    
+                </p>
+                <div class="post_author">
+                    <div class="post_author-avatar">
+                        <img src = "images/author8.jpg">
+                    </div>
+                    <div class="post_author-info">
+                        <h5>By: Sarah Hae</h5>
+                        <small>July 30, 2022 - 11:17</small>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+</div>
+
+<!-- -----footer----- -->
+<section class = "category_buttons">
+    <div class="category_buttons-container">
+        <a href="" class="category_button">Food</a>
+        <a href="" class="category_button">Animals</a>
+        <a href="" class="category_button">Nature</a>
+        <a href="" class="category_button">Entertainments</a>
+        <a href="" class="category_button">News</a>
+        <a href="" class="category_button">Sports</a>
+
+    </div>
+</section>
+
+<!-- ----foooter---- -->
+
+<div id="footer">
+    <div class="footer_socials">
+        <a href = "https://youtu.be/FNjO31nko2E" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href = "https://www.facebook.com/groups/lamblike/?mibextid=HsNCOg" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href = "https://www.instagram.com/explore/tags/rafflesia/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href = "https://lnkd.in/gBGC3sZT" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href = "https://twitter.com/hashtag/carbonara" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="footer-container">
+        <article>
+            <h4>Categories</h4>
+            <ul>
+                <li><a href="">Animals</a></li>
+                <li><a href="">Diary</a></li>
+                <li><a href="">Entertainments</a></li>
+                <li><a href="">Food</a></li>
+                <li><a href="">Nature</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Sports</a></li>
+            </ul>
+        </article>
+        <article>
+            <h4>Support</h4>
+            <ul>
+                <li><a href="">Online Support</a></li>
+                <li><a href="">Call Numbers</a></li>
+                <li><a href="">Emails</a></li>
+                <li><a href="">Social Support</a></li>
+                <li><a href="">Location</a></li>
+                <li><a href="">Food</a></li>
+            </ul>
+        </article>
+        <article>
+            <h4>Blog</h4>
+            <ul>
+                <li><a href="">Safety</a></li>
+                <li><a href="">Repair</a></li>
+                <li><a href="">Recent</a></li>
+                <li><a href="">Popular</a></li>
+                <li><a href="">Categories</a></li>
+            </ul>
+        </article>
+        <article>
+            <h4>Permalinks</h4>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Activities</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </article>
+    </div>
+    <div class="footer_copyright">
+        <small>Copyright &copy; WebApp Development</small>
+
+    </div>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+<script>
+let stars = document.getElementById('stars');
+let moon = document.getElementById('moon');
+let mountains3 = document.getElementById('mountains3');
+let mountains4 = document.getElementById('mountains4');
+let river5 = document.getElementById('river');
+let boat6 = document.getElementById('boat6');
+let mountains7 = document.getElementById('mountains7');
+let name = document.querySelector('.name');
+
+window.onscroll = function (){
+    let value = scrollY;
+    stars.style.left = value + 'px';
+    moon.style.top = value * 4 + 'px';
+    mountains3.style.top = value * 2 + 'px';
+    mountains4.style.top = value * 1.5 + 'px';
+    river5.style.top = value + 'px';
+    boat6.style.top = value + 'px';
+    boat6.style.left = value * 3 + 'px';
+    name.style.fontSize = value + 'px';
+        if(scrollY >= 65){
+            name.style.fontSize = 65 + 'px';
+            name.style.position = 'fixed';
+            if(scrollY >= 510){
+                name.style.display = 'none';
+            }else{
+                name.style.display = 'block';
+            }
+            if(scrollY >= 145){
+                document.querySelector('.main').style.background = 'linear-gradient(#376281a4,#10001f)';
+            }else
+            document.querySelector('.main').style.background = 'linear-gradient(#200016,#10001f)';
+        }
+}
+
+
+</script>
+
+
+</body>
+</html>
+
